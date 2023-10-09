@@ -1,0 +1,50 @@
+.header {
+  width: 100%;
+  height: 1000px;
+  object-fit: contain;
+  transition: background 0.2s ease;
+  padding: 20px 320px 0 320px;
+  display: flex;
+  flex-direction: column;
+  place-content: flex-end space-between;
+}
+
+.logo {
+  width: 295.991px;
+  height: 73.489px;
+}
+
+.headerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social > a {
+  margin-right: 40px;
+}
+
+.social > a:last-child {
+  margin-right: 0;
+}
+
+.headerWrapperBottom {
+  width: 624px;
+  height: 369px;
+  align-self: end;
+  padding: 70px;
+}
+
+.headerWrapperBottom > h1 {
+  font-size: 62px;
+  margin-bottom: 25px;
+}
+
+.headerWrapperBottom > button {
+  color: #f8f200;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 40px;
+  padding: 19px 50px;
+  background: #000;
+}
