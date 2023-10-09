@@ -4,9 +4,9 @@ import NightCity from './NigthCity/NightCity'
 
 const Main = () => {
   return (
-    <Main>
+    <main>
         <NightCity />
-    </Main>
+    </main>
   )
 }
 

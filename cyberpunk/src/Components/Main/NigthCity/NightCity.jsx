@@ -3,7 +3,7 @@ import styles from "./NightCity.module.css";
 
 const NightCity = () => {
   return (
-    <section>
+    <section className={styles.NightCity}>
       <h2>Найт-Сити изменит тебя навсегда!</h2>
       <p>
         <span>Cyberpunk 2077</span> — приключенческая ролевая игра, действие
@@ -13,29 +13,35 @@ const NightCity = () => {
         киберимпланты, навыки и стиль игры своего персонажа, исследуя открытый
         мир, где твои поступки влияют на ход сюжета и всё, что тебя окружает.
       </p>
-      <div>
+      <div className={styles.imagesWrapper}>
         <div className={styles.leftImagesWrapper}>
           <div
-            styles={{
+            style={{
               backgroundImage:
                 "url(./assets/img/nightCityRectangls/Rectangle1.png)",
             }}
           ></div>
           <div
-            styles={{
+            style={{
               backgroundImage:
                 "url(./assets/img/nightCityRectangls/Rectangle2.png)",
             }}
           ></div>
         </div>
         <div
-          className={styles.rightImagWrapper}
-          styles={{
+          className={styles.rightImgWrapper}
+          style={{
             backgroundImage:
               "url(./assets/img/nightCityRectangls/Rectangle3.png)",
           }}
         ></div>
       </div>
+      <div
+        className={styles.layer}
+        style={{
+          backgroundImage: "url(./assets/img/layers/1.png)",
+        }}
+      ></div>
     </section>
   );
 };

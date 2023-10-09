@@ -1,0 +1,52 @@
+.NightCity {
+  padding: 70px 320px 140px 320px;
+  position: relative;
+}
+
+.NightCity h2 {
+  font-size: 62px;
+  margin-bottom: 25px;
+}
+
+.NightCity p {
+  color: #777;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34px;
+  width: 952px;
+  height: 125px;
+  margin-bottom: 70px;
+}
+
+.NightCity p > span {
+  color: #52bedc;
+  font-weight: 700;
+}
+
+.imagesWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftImagesWrapper * {
+  width: 460px;
+  height: 196px;
+  margin-bottom: 32px;
+}
+
+.leftImagesWrapper *:last-child {
+  margin-bottom: 0;
+}
+
+.rightImgWrapper {
+  width: 788px;
+  height: 424px;
+}
+
+.layer {
+  width: 1920px;
+  height: 70px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
