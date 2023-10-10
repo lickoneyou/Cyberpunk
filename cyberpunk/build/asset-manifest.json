@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "./static/css/main.3b1182c1.css",
+    "main.js": "./static/js/main.28510691.js",
+    "static/media/Archangelsk.ttf": "./static/media/Archangelsk.a924389f7740634a5c27.ttf",
+    "index.html": "./index.html",
+    "main.3b1182c1.css.map": "./static/css/main.3b1182c1.css.map",
+    "main.28510691.js.map": "./static/js/main.28510691.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b1182c1.css",
+    "static/js/main.28510691.js"
+  ]
+}
