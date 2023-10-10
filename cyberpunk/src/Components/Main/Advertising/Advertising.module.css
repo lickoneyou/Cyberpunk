@@ -1,0 +1,129 @@
+.advertising {
+  position: relative;
+  background: #f8f200;
+  padding: 140px 320px 70px 320px;
+}
+
+.advertisingHeadLayer {
+  width: 1920px;
+  height: 70px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.advertisingWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imagesWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.monitor {
+  width: 624px;
+  height: 430px;
+  margin-bottom: 26px;
+}
+
+.advertisingLogoWrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.hpWrapper {
+  width: 80px;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.groupWrapper {
+  width: 90px;
+  height: 90px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.CPLogoWrapper {
+  width: 319.991px;
+  height: 79.448px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.advertisingDescrWrapper h2 {
+  font-size: 62px;
+  margin-bottom: 25px;
+  user-select: none;
+}
+
+.advertisingDescrWrapper p {
+  width: 624px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34px;
+  margin-bottom: 16px;
+  user-select: none;
+}
+
+.advertisingDescrWrapper li {
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.advertisingDescrWrapper li:last-child {
+  margin-bottom: 0;
+}
+
+.advertisingDescrWrapper ul {
+  margin-bottom: 40px;
+  user-select: none;
+}
+
+.advertisingDescrWrapper button {
+  padding: 15px 50px;
+  background: #000;
+  color: #f8f200;
+  font-size: 18px;
+  font-weight: 700;
+  user-select: none;
+}
+
+.colors::before {
+  content: "";
+  background-image: url("./assets/img/pseudoElements/color_lens.png");
+  width: 32px;
+  height: 32px;
+  display: block;
+  margin-right: 10px;
+}
+
+.definition::before {
+  content: "";
+  background-image: url("./assets/img/pseudoElements/auto_awesome.png");
+  width: 32px;
+  height: 32px;
+  display: block;
+  margin-right: 10px;
+}
+
+.fastMove::before {
+  content: "";
+  background-image: url("./assets/img/pseudoElements/auto_awesome_motion.png");
+  width: 32px;
+  height: 32px;
+  display: block;
+  margin-right: 10px;
+}
