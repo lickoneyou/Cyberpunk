@@ -26,6 +26,7 @@
 .footerLinks {
   display: flex;
   font-size: 18px;
+  user-select: none;
 }
 
 .footerLinks p:first-child {
@@ -40,4 +41,5 @@
 .footerBottom p {
   color: #fff;
   font-size: 12px;
+  user-select: none;
 }

@@ -103,7 +103,7 @@
 
 .colors::before {
   content: "";
-  background-image: url("./assets/img/pseudoElements/color_lens.png");
+  background-image: url("../../../pseudoElements/color_lens.png");
   width: 32px;
   height: 32px;
   display: block;
@@ -112,7 +112,7 @@
 
 .definition::before {
   content: "";
-  background-image: url("./assets/img/pseudoElements/auto_awesome.png");
+  background-image: url("../../../pseudoElements/auto_awesome.png");
   width: 32px;
   height: 32px;
   display: block;
@@ -121,7 +121,7 @@
 
 .fastMove::before {
   content: "";
-  background-image: url("./assets/img/pseudoElements/auto_awesome_motion.png");
+  background-image: url("../../../pseudoElements/auto_awesome_motion.png");
   width: 32px;
   height: 32px;
   display: block;
