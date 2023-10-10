@@ -6,6 +6,7 @@
 .NightCity h2 {
   font-size: 62px;
   margin-bottom: 25px;
+  user-select: none;
 }
 
 .NightCity p {
@@ -16,6 +17,7 @@
   width: 952px;
   height: 125px;
   margin-bottom: 70px;
+  user-select: none;
 }
 
 .NightCity p > span {

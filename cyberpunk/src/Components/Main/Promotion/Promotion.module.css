@@ -1,0 +1,167 @@
+.promotion {
+  background: #000;
+  padding: 15px 320px 70px 320px;
+}
+
+.promotionTitleWrapper {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.promotionTitleWrapper h2 {
+  color: #fff;
+  font-size: 62px;
+  margin: 55px 0 14px 32px;
+  user-select: none;
+}
+
+.vector {
+  padding: 28px 27.63px 27.63px 28px;
+  width: 132px;
+  height: 132px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vector h3 {
+  color: #f8f200;
+  font-size: 30px;
+  transform: rotate(-45deg);
+  user-select: none;
+}
+
+.promotionDescr {
+  width: 952px;
+  height: 91px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 34px;
+  margin-bottom: 25px;
+  user-select: none;
+}
+
+.promotionDescr > span {
+  color: #52bedc;
+}
+
+.promotionLeftWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 67px;
+}
+
+.promotionLeftWrapper input {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 300;
+  border-bottom: 1px solid #777;
+  padding-bottom: 13px;
+  width: 460px;
+  margin-bottom: 35px;
+}
+
+.inputFileWrapper {
+  width: 460px;
+  height: 120px;
+  border: 1px dashed #777;
+  padding: 38px 130px 39px 136px;
+  margin-bottom: 35px;
+}
+
+.inputFileWrapper > label {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-decoration-line: underline;
+  user-select: none;
+}
+
+.inputFileWrapper > p {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+  user-select: none;
+}
+
+.promotionLeftWrapper button {
+  height: 59px;
+  padding: 15px 50px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  background: #f8f200;
+  margin-bottom: 15px;
+  user-select: none;
+}
+
+.check {
+  display: flex;
+  margin: 0;
+}
+
+.check input {
+  margin: 0;
+  width: auto;
+  margin-right: 10px;
+  width: 14px;
+  height: 14px;
+  outline: 1px solid #777777;
+  accent-color: transparent;
+  color: red;
+  cursor: pointer;
+}
+
+.check > label {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 300;
+  user-select: none;
+}
+
+.promotionWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.promotionRightWrapper {
+  position: relative;
+  width: 820px;
+}
+
+.blueLayer,
+.yelloyLayer {
+  width: 460px;
+  height: 456px;
+}
+
+.blueLayer {
+  position: absolute;
+  right: 0;
+}
+
+.PSLayer {
+  width: 296px;
+  height: 351px;
+  position: absolute;
+  right: 0;
+  top: 23px;
+  z-index: 1;
+}
+
+.xBoxLayer {
+  width: 296px;
+  height: 351px;
+  position: absolute;
+  left: 195px;
+  top: 23px;
+  z-index: 1;
+}

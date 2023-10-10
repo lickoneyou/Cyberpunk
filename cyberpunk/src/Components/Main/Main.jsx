@@ -1,13 +1,15 @@
-import React from 'react'
-import styles from './Main.module.css'
-import NightCity from './NigthCity/NightCity'
+import React from "react";
+import styles from "./Main.module.css";
+import NightCity from "./NigthCity/NightCity";
+import Promotion from "./Promotion/Promotion";
 
 const Main = () => {
   return (
     <main>
-        <NightCity />
+      <NightCity />
+      <Promotion />
     </main>
-  )
-}
+  );
+};
 
-export default Main
+export default Main;

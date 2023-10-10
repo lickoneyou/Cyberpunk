@@ -22,6 +22,7 @@
 
 .social > a {
   margin-right: 40px;
+  user-select: none;
 }
 
 .social > a:last-child {
@@ -38,6 +39,7 @@
 .headerWrapperBottom > h1 {
   font-size: 62px;
   margin-bottom: 25px;
+  user-select: none;
 }
 
 .headerWrapperBottom > button {
@@ -47,4 +49,5 @@
   line-height: 40px;
   padding: 19px 50px;
   background: #000;
+  user-select: none;
 }
