@@ -3,6 +3,7 @@ import styles from "./Main.module.css";
 import NightCity from "./NigthCity/NightCity";
 import Promotion from "./Promotion/Promotion";
 import Advertising from "./Advertising/Advertising";
+import Purchase from "./Purchase/Purchase";
 
 const Main = () => {
   return (
@@ -10,6 +11,7 @@ const Main = () => {
       <NightCity />
       <Promotion />
       <Advertising />
+      <Purchase />
     </main>
   );
 };
