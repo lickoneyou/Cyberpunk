@@ -27,7 +27,7 @@ const Advertising = () => {
             ></div>
             <div
               className={styles.CPLogoWrapper}
-              style={{ backgroundImage: "url(./assets/img/logo.png)" }}
+              style={{ backgroundImage: "url(./assets/img/Logo.png)" }}
             ></div>
           </div>
         </div>
