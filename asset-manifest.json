@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "./static/css/main.aa48e2f5.css",
+    "main.js": "./static/js/main.678e2820.js",
+    "static/media/Archangelsk.ttf": "./static/media/Archangelsk.a924389f7740634a5c27.ttf",
+    "index.html": "./index.html",
+    "main.aa48e2f5.css.map": "./static/css/main.aa48e2f5.css.map",
+    "main.678e2820.js.map": "./static/js/main.678e2820.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa48e2f5.css",
+    "static/js/main.678e2820.js"
+  ]
+}
